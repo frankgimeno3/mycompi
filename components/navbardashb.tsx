@@ -1,0 +1,25 @@
+import React, { useState } from 'react';
+ 
+const Navbardashb: React.FC = () => {
+  const [language, setLanguage] = useState('ESP');
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'ESP' ? 'ENG' : 'ESP');
+  };
+
+  return (
+    <nav className="fixed top-0 w-full  py-4  flex items-center justify-between">
+      <button className="text-lg text-white font-bold px-6 text-yellow-300">MyCompi</button>
+      <div>
+        <button className="mr-2 bg-transparent text-yellow-300 font-bold text-sm" onClick={toggleLanguage}>
+          {language === 'ESP' ? 'ENG' : 'ESP'}
+        </button>
+        <button className="mr-1 rounded-full bg-white text-sm px-4 py-1 shadow">Perfil</button>
+        <button className="mr-1 rounded-full bg-white text-sm px-4 py-1 shadow">Cerrar Sesión</button>
+         
+      </div>
+    </nav>
+  );
+};
+
+export default Navbardashb;
