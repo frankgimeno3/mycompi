@@ -20,12 +20,18 @@ const Mainroller: React.FC = () => {
         <button
           className="bg-white rounded-full shadow text-black px-3 py-2  absolute"
           style={{
-            top: '-80px',
+            top: '-95px',
             left: '50%',
             transform: 'translateX(-50%)',
+            width: '80px',
+            height: '75px',
+            borderRadius: '50%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           }}
         >
-          Botón 1
+          Calendario
         </button>
         <button
           className="bg-white rounded-full shadow text-black px-3 py-2  absolute"
@@ -33,9 +39,15 @@ const Mainroller: React.FC = () => {
             top: '15px',
             left: '115px',
             transform: 'translateY(-50%)',
+            width: '80px',
+            height: '75px',
+            borderRadius: '50%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           }}
         >
-          Botón 2
+          Lista compra
         </button>
         <button
           className="bg-white rounded-full shadow text-black px-3 py-2  absolute"
@@ -43,19 +55,31 @@ const Mainroller: React.FC = () => {
             top: '110px',
             left: '110px',
             transform: 'translateY(-50%)',
+            width: '80px',
+            height: '75px',
+            borderRadius: '50%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           }}
         >
-          Botón 3
+          Cuentas pisito
         </button>
         <button
-          className="bg-white rounded-full shadow text-black px-3 py-2  absolute"
+          className="bg-white rounded-full shadow text-black  px-3 py-2  absolute"
           style={{
             top: '120px',
             left: '50%',
             transform: 'translateX(-50%)',
+            width: '80px',
+            height: '75px',
+            borderRadius: '50%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           }}
         >
-          Botón 4
+          + 
         </button>
         <button
           className="bg-white rounded-full shadow text-black px-3 py-2  absolute"
@@ -63,9 +87,15 @@ const Mainroller: React.FC = () => {
             top: '110px',
             right: '110px',
             transform: 'translateY(-50%)',
+            width: '80px',
+            height: '75px',
+            borderRadius: '50%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           }}
         >
-          Botón 5
+          Gestión compis
         </button>
         <button
           className="bg-white rounded-full shadow text-black px-3 py-2  absolute"
@@ -73,9 +103,15 @@ const Mainroller: React.FC = () => {
             top: '15px',
             right: '115px',
             transform: 'translateY(-50%)',
+            width: '80px',
+            height: '75px',
+            borderRadius: '50%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           }}
         >
-          Botón 6
+          Tareas
         </button>
       </div>
     </div>
