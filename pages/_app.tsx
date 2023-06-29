@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
     <Head>
-    <title>Empleotecnic.com</title>
+    <title>Mycompi</title>
     <link rel="icon" href="/icons/minimal.png" />
   </Head>
   <Navbar/>
